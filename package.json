@@ -1,0 +1,19 @@
+{
+  "name": "wp-page-builder",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.0.0"
+  },
+  "dependencies": {
+    "@measured/puck": "^0.17.0",
+    "zustand": "^4.5.0",
+    "immer": "^10.1.0",
+    "framer-motion": "^11.0.0",
+    "react-aria": "^3.35.0"
+  }
+}
