@@ -4,5 +4,6 @@ import App from './App';
 const mount = document.getElementById( 'pb-editor-root' );
 
 if ( mount ) {
-	createRoot( mount ).render( <App /> );
+	const postId = parseInt( mount.dataset.postId, 10 );
+	createRoot( mount ).render( <App postId={ postId } /> );
 }
